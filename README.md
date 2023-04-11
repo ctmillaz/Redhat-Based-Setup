@@ -24,7 +24,7 @@
 ```sudo dnf install gcc make perl kernel-devel kernel-headers bzip2 dkms```
 ```sudo dnf update kernel-*```
 
-## Install git 
+# Install git 
 ```sudo yum install git -y```
 ### Make git directory
 ``` mkdir /home/$USER/git```
