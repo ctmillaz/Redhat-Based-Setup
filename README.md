@@ -1,8 +1,9 @@
 # Redhat-Based-Setup
 
 # Setup Linux Operating System
+### Create and open sudo user file
 ```nano /etc/sudoers.d/<user>```
-##### Add this to sudoer.d file
+### Add this to sudoer.d file
 ```<user> ALL=(ALL) NOPASSWD: ALL```
 
 ### Install almalinux os, vmware, and extra updates
@@ -40,7 +41,7 @@
 
 ```sudo yum install code```
 
-## Install python 
+# Install python 
 ### Install python38 or current version of python
 ```sudo yum install python3.8```
 ### Update python3 version to reflect the version of python you want to use
